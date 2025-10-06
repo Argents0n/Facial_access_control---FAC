@@ -1,0 +1,12 @@
+{
+    "demo_photo_1.jpg": {
+        "user_id": 1,
+        "timestamp": "2024-01-15 10:30:00",
+        "location": "Главный вход"
+    },
+    "demo_photo_2.jpg": {
+        "user_id": 2,
+        "timestamp": "2024-01-20 14:15:00",
+        "location": "Офис"
+    }
+}

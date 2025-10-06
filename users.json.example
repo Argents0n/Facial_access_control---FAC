@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Иванов Иван",
+        "position": "Администратор",
+        "department": "IT отдел",
+        "access_level": "admin",
+        "photo_path": "user_photos/admin_demo.jpg",
+        "created_date": "2024-01-15",
+        "active": true
+    },
+    {
+        "id": 2,
+        "name": "Петрова Анна",
+        "position": "Менеджер",
+        "department": "Продажи",
+        "access_level": "user",
+        "photo_path": "user_photos/user_demo.jpg",
+        "created_date": "2024-01-20",
+        "active": true
+    }
+]

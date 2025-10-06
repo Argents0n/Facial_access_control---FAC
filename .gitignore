@@ -1,0 +1,148 @@
+# Файлы с личными данными
+users.json
+user_names.json
+camera_history.json
+photos.json
+
+# Папки с личными данными и изображениями
+user_photos/*.jpg
+user_photos/*.jpeg
+user_photos/*.png
+user_photos/*.bmp
+database_faces/*.npy
+database_faces/*.pkl
+detected_faces/*.jpg
+detected_faces/*.jpeg
+detected_faces/*.png
+detected_faces/*.bmp
+
+# Исключаем .gitkeep файлы из игнорирования
+!**/.gitkeep
+
+# Python байт-код
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Временные файлы
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Логи приложения
+*.log
+
+# Системные исполняемые файлы (cmake и т.д.)
+*.exe
+!requirements.txt

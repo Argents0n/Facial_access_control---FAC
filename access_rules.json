@@ -1,0 +1,14 @@
+[
+    {
+        "departament": "IT",
+        "id_rooms": "A1"
+    },
+    {
+        "departament": "IT",
+        "id_rooms": "B2"
+    },
+    {
+        "departament": "HR",
+        "id_rooms": "B2"
+    }
+]
